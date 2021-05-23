@@ -14,7 +14,7 @@ import { makeStyles } from "@material-ui/core/styles";
 const useStyles = makeStyles({
   navbarDisplayFlex: {
     display: `flex`,
-    justifyContent: `space-between`
+    justifyContent: `space-between`,
   },
   navDisplayFlex: {
     display: `flex`,

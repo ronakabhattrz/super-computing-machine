@@ -12,26 +12,28 @@ img {
   width: 800px;
   margin-top: 5px;
 }
-
+.MuiTypography-body1 {
+  font-size: 0.8rem !important;
+}
 
 /* On screens that are 992px or less, set the background color to blue */
 @media screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
   img {
     width: 100%;
     margin-top: 5px;
+  }
+  .MuiTypography-body1 {
+    font-size: 0.7rem !important;
   }
 }
 
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
-  body {
-    background-color: olive;
-  }
   img {
     width: 100%;
     margin-top: 5px;
+  }
+  .MuiTypography-body1 {
+    font-size: 0.7rem !important;
   }
 }
