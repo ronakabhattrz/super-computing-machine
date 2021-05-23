@@ -6,6 +6,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from '../src/components/pages/Home'
 import Download from '../src/components/pages/Download'
 import Avaiblity from '../src/components/pages/Avaiblity'
+import Footer from '../src/components/pages/Footer'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
             <Route exact path="/download-certificate" component={Download} />
           </Switch>
         </BrowserRouter>
+        <Footer children="Helpline Number : +91-11-23978046 | Toll Free Number: 1075" />
       </Container>
     </div>
   );

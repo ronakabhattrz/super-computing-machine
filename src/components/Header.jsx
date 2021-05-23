@@ -45,7 +45,7 @@ const Header = () => {
         <Container maxWidth="md" className={classes.navbarDisplayFlex}>
           <a href='/' key='home' className={classes.linkText}>
             <IconButton edge="start" color="inherit" aria-label="home">
-              <Home fontSize="large" />Covid Vaccine Avaiblity
+              <Home fontSize="large" />
             </IconButton>
           </a>
           <List
