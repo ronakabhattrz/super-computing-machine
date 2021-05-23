@@ -23,7 +23,7 @@ const useStyles = makeStyles({
   linkText: {
     textDecoration: `none`,
     textTransform: `uppercase`,
-    color: `white`
+    color: `white`,
   },
   marginRight: {
     marginRight: `20`

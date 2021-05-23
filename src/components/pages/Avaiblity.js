@@ -5,7 +5,8 @@ export default function App() {
   return (
     <div className="App">
       <Container maxWidth="md">
-        <h1>This is a Avaiblity page</h1>
+        <h1>Check Avaiblity</h1>
+        <img src="/coming-soon.jpeg" alt="coming-soon" />
       </Container>
     </div>
   );

@@ -22,7 +22,6 @@ var phantom = {
 function Footer({ children }) {
     return (
         <div>
-            <div style={phantom} />
             <div style={style}>
                 <p>
                     <b>Helpline Number : </b> <a href="tel:+911123978046">+91-11-23978046 </a>
@@ -31,6 +30,7 @@ function Footer({ children }) {
                     <b>Toll Free Number: </b> <a href="tel:1075">1075 </a>
                 </p>
             </div>
+            <div style={phantom} />
         </div>
     )
 }
