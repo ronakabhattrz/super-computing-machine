@@ -1,12 +1,13 @@
 {
   "name": "how-to-build-a-material-ui-navbar",
   "version": "1.0.0",
-  "description": "",
+  "description": "test",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "@material-ui/core": "4.9.12",
     "@material-ui/icons": "4.9.1",
+    "express": "^4.17.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
     "react-router-dom": "^5.2.0",
@@ -26,5 +27,15 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronakabhattrz/super-computing-machine.git"
+  },
+  "author": "ronak bhatt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronakabhattrz/super-computing-machine/issues"
+  },
+  "homepage": "https://github.com/ronakabhattrz/super-computing-machine#readme"
 }
