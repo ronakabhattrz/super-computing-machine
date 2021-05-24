@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import "./styles.css";
 import { Container } from "@material-ui/core";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -8,7 +8,9 @@ import Download from '../src/components/pages/Download'
 import Avaiblity from '../src/components/pages/Avaiblity'
 import Footer from '../src/components/pages/Footer'
 
+
 export default function App() {
+  
   return (
     <div className="App">
       <Container maxWidth="md">
